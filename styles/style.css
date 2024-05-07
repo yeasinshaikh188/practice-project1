@@ -1,0 +1,109 @@
+*{
+    font-family: "lato" sans-serif;
+    padding: 0;
+}
+.img1{
+    background-image: url(../images/image1.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 110vh;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.textBG{
+    font-size: 50px;
+    letter-spacing: 6px;
+    background-color: gray;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.sect-light, .sect-light-2{
+    text-align: center;
+    background-color: white;
+    padding: 80px;
+}
+.img1-text{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.img2{
+    background-image: url(../images/image2.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.second-text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+.second-text span{
+    background-color: gray;
+    font-size: 50px;
+    padding: 20px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.sect-light-2{
+    background-color: gray;
+    color: white;
+}
+.img3{
+    background-image: url(../images/image3.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.second-text3{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%
+}
+.second-text3 span{
+    font-size: 50px;
+    background-color: gray;
+    padding: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+#text3{
+    background-color: black;
+    color: white;
+}
+.img4{
+    background-image: url(../images/image1.png);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+
+@media screen and (max-width: 676px) {
+    .img1, .img2, .img3, .img4{
+        height: 60vh;
+    }
+    .textBG, .second-text span, .second-text3 span{
+        font-size: 20px;
+        letter-spacing: 3px;
+        padding: 9px;
+    }
+    .sect-light, .sect-light-2{
+        padding: 30px;
+    }    
+    .img1-text{
+        font-size: 25px;
+    }
+}
